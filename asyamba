@@ -1,0 +1,9 @@
+return new Block(nextIndex, previousBlock.hash, nextTimestamp, blockData, nextHash);
+};
+this.index = index;
+        this.previousHash = previousHash.toString();
+        this.timestamp = timestamp;
+        this.data = data;
+        this.hash = hash.toString();
+    }
+}
